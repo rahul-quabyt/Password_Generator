@@ -1,6 +1,6 @@
 # Mirror Reco 
 
-This repository is a monorepo containing multiple sub-projects, including Mirror Reco, which comprises both frontend and backend components.
+This repository is a monorepo containing multiple sub-projects, including the Mirror Reco application, which has both frontend and backend components.
 
 ## Table of Contents
 - [Project Structure](#project-structure)
@@ -11,6 +11,7 @@ This repository is a monorepo containing multiple sub-projects, including Mirror
   - [Environment Variables](#environment-variables)
   - [Running the Frontend](#running-the-frontend)
 - [Backend Setup](#backend-setup)
+  - [Opening in Visual Studio](#opening-in-visual-studio)
   - [Environment Configuration](#environment-configuration)
   - [Running the Backend](#running-the-backend)
 - [Conclusion](#conclusion)
@@ -45,7 +46,7 @@ The frontend of Mirror Reco is located in the `mirror-reco/frontend` directory. 
 
 To run the frontend application, you need to install [Bun](https://bun.sh/) on your system. You can install it using either npm or a shell script.
 
-#### - Using npm
+#### Using npm
 
 Run the following command to install Bun globally:
 
@@ -53,7 +54,7 @@ Run the following command to install Bun globally:
 npm install -g bun
 ```
 
-#### - -Using Script
+#### - Using Script
 Alternatively, you can install Bun by running the following command in your terminal:
 
 ```bash
