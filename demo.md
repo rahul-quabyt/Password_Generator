@@ -107,7 +107,7 @@ Before running the backend, you need to create a local.settings.json file in the
 local.settings.json Configuration
 Add the following code to your local.settings.json file:
 
-``` env
+``` json
 {
     "IsEncrypted": false,
     "Values": {
