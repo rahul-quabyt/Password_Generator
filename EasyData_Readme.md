@@ -65,7 +65,7 @@ VITE_PUBLIC_SERVICEBUS=""
 VITE_FUNCTION_API_URL=""
 ```
 
-### Run the Front-End:
+### Run the Frontend:
 Open a terminal in the web-vite directory.
 Run the following command to start the development server:
 
@@ -75,11 +75,11 @@ yarn dev
 ---
 
 ### Backend Setup
-Open Project in Visual Studio:
+#### Open Project in Visual Studio:
 Navigate to the services/CompactAccounting.EasyData.Services directory.
 Open the file named CompactAccounting.EasyData.Services.sln with Visual Studio.
 
-### Configure Environment Variables:
+#### Configure Environment Variables:
 Create a file named local.settings.json inside the EasyData.Functions folder (located within services/CompactAccounting.EasyData.Services/EasyData.Functions).
 Paste the following code into the local.settings.json file, replacing the placeholders with your actual values:
 
@@ -112,10 +112,10 @@ Paste the following code into the local.settings.json file, replacing the placeh
 ```
 This configuration allows the backend to connect to required services and APIs for local development.
 
-### Run the Back-End:
+#### Run the Back-End:
 After setting up your local.settings.json, simply run the solution file (CompactAccounting.EasyData.Services.sln) in Visual Studio to start the backend service.
 
 ---
 
-Conclusion
+### Conclusion
 You are now ready to work on the Easy Data project!
