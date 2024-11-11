@@ -28,7 +28,7 @@ This guide will help you set up and run the Easy Data project locally.
 
 ---
 
-### Front-End Setup
+### Frontend Setup
 
 #### Install Yarn:
 
