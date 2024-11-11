@@ -70,7 +70,7 @@ bun --version
 
 Create a `.env.development` file under the `frontend` folder and add the following environment variables:
 
-```plaintext
+``` env
 VITE_PUBLIC_MSAL_CLIENT_ID=""
 VITE_PUBLIC_AZURE_AD_TENANT_ID=""
 VITE_PUBLIC_MSAL_REDIRECT_URL=""
@@ -107,7 +107,7 @@ Before running the backend, you need to create a local.settings.json file in the
 local.settings.json Configuration
 Add the following code to your local.settings.json file:
 
-```
+``` env
 {
     "IsEncrypted": false,
     "Values": {
