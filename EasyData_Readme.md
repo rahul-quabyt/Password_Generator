@@ -1,5 +1,4 @@
-# Easy Data - Mono Repo with Front-End and Back-End
-
+# EasyData 
 This repository is a monorepo containing multiple sub-projects, including the Mirror Reco application, which has both frontend and backend components.
 
 ## Table of Contents
