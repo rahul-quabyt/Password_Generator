@@ -1,4 +1,4 @@
-# Mirror Reco 
+# MirrorReco 
 
 This repository is a monorepo containing multiple sub-projects, including the Mirror Reco application, which has both frontend and backend components.
 
