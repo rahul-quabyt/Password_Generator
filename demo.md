@@ -65,3 +65,77 @@ After installation, verify it by running:
 ```bash
 bun --version
 ```
+### Environment Variables
+
+Create a `.env.development` file under the `frontend` folder and add the following environment variables:
+
+```plaintext
+VITE_PUBLIC_MSAL_CLIENT_ID=""
+VITE_PUBLIC_AZURE_AD_TENANT_ID=""
+VITE_PUBLIC_MSAL_REDIRECT_URL=""
+VITE_PUBLIC_STORAGE_ACCOUNT_NAME=""
+VITE_PUBLIC_STORAGE_CONTAINER_NAME=""
+VITE_PUBLIC_STORAGE_TENANT_TABLE_NAME=""
+VITE_PUBLIC_SAS_TOKEN=""
+VITE_PUBLIC_FUNCTION_URL=""
+VITE_FUNCTION_MIRRORRECO_API_URL=""
+```
+These variables are necessary to configure the frontend to connect with the backend and other services.
+
+### Running the Frontend
+
+To start the frontend, open your terminal and navigate to the frontend directory. Run the following command:
+
+bash
+```
+bun dev --port 3000
+```
+
+This will start the frontend server on http://localhost:3000.
+
+### Backend Setup
+The backend for Mirror Reco is located in backend/CompactAccounting.MirrorReco.Services. It includes a solution file (.sln) that can be opened in Visual Studio.
+
+### Opening in Visual Studio
+Navigate to backend > CompactAccounting.MirrorReco.Services and open CompactAccounting.MirrorReco.Services.sln with Visual Studio.
+
+### Environment Configuration
+Before running the backend, you need to create a local.settings.json file in the MirrorReco.Functions directory (located at backend > CompactAccounting.MirrorReco.Services > MirrorReco.Functions).
+
+local.settings.json Configuration
+Add the following code to your local.settings.json file:
+
+json
+```
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "",
+        "FUNCTIONS_WORKER_RUNTIME": "",
+        "StorageConnectionString": "",
+        "storageAccountName": "",
+        "blobContainerName": "",
+        "formRecognizerKey": "",
+        "jobStatusTableName": "",
+        "startQueueName": "",
+        "ServiceBusQueueName": "",
+        "managedIdentityClientID": "",
+        "ServiceBusConnectionString": "",
+        "SignalRConnectionString": "",
+        "SendGridAPIKey": "",
+        "GrpcChannelUri": "",
+        "APPINSIGHTS_INSTRUMENTATIONKEY": ""
+    },
+    "Host": {
+        "LocalHttpPort": 7500,
+        "CORS": "*",
+        "CORSCredentials": false
+    }
+}
+```
+
+This configuration allows the backend to connect to required services and APIs for local development.
+
+### Running the Backend
+After setting up your local.settings.json, simply run the solution file (CompactAccounting.MirrorReco.Services.sln) in Visual Studio to start the backend service.
+
