@@ -93,6 +93,8 @@ bun dev --port 3000
 
 This will start the frontend server on http://localhost:3000.
 
+---
+
 ### Backend Setup
 The backend for Mirror Reco is located in backend/CompactAccounting.MirrorReco.Services. It includes a solution file (.sln) that can be opened in Visual Studio.
 
@@ -138,3 +140,6 @@ This configuration allows the backend to connect to required services and APIs f
 ### Running the Backend
 After setting up your local.settings.json, simply run the solution file (CompactAccounting.MirrorReco.Services.sln) in Visual Studio to start the backend service.
 
+---
+
+This will have your project up and running 
