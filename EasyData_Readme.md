@@ -2,6 +2,21 @@
 
 This repository is a monorepo containing multiple sub-projects, including the Mirror Reco application, which has both frontend and backend components.
 
+## Table of Contents
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+- [Frontend Setup](#frontend-setup)
+  - [Install Yarn](#install-yarn)
+  - [Install Dependencies](#install-dependencies)
+  - [Configure Environment Variables](#configure-environment-variables)
+  - [Run the Frontend](#run-the-frontend)
+- [Backend Setup](#backend-setup)
+  - [Open Project in Visual Studio](#open-project-in-visual-studio)
+  - [Configure Environment Variables](#configure-environment-variables-1)
+  - [Run the Backend](#run-the-backend)
+- [Conclusion](#conclusion)
+
 ### Getting Started
 
 This guide will help you set up and run the Easy Data project locally.
