@@ -51,3 +51,17 @@ Run the following command to install Bun globally:
 
 ```bash
 npm install -g bun
+```
+
+#### Using Script
+Alternatively, you can install Bun by running the following command in your terminal:
+
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+After installation, verify it by running:
+
+```bash
+bun --version
+```
