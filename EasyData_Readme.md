@@ -30,11 +30,11 @@ This guide will help you set up and run the Easy Data project locally.
 
 ### Frontend Setup
 
-#### Install Yarn:
+#### - Install Yarn:
 
 Follow the official instructions for your operating system: https://classic.yarnpkg.com/lang/en/docs/cli/install/
 
-#### Install Dependencies:
+#### - Install Dependencies:
 
 Navigate to the `web-vite` directory.
 Run the following command to install dependencies:
