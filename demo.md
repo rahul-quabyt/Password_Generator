@@ -45,7 +45,7 @@ The frontend of Mirror Reco is located in the `mirror-reco/frontend` directory. 
 
 To run the frontend application, you need to install [Bun](https://bun.sh/) on your system. You can install it using either npm or a shell script.
 
-#### Using npm
+#### - Using npm
 
 Run the following command to install Bun globally:
 
@@ -53,7 +53,7 @@ Run the following command to install Bun globally:
 npm install -g bun
 ```
 
-#### Using Script
+#### - -Using Script
 Alternatively, you can install Bun by running the following command in your terminal:
 
 ```bash
@@ -86,7 +86,6 @@ These variables are necessary to configure the frontend to connect with the back
 
 To start the frontend, open your terminal and navigate to the frontend directory. Run the following command:
 
-bash
 ```
 bun dev --port 3000
 ```
@@ -98,10 +97,10 @@ This will start the frontend server on http://localhost:3000.
 ### Backend Setup
 The backend for Mirror Reco is located in backend/CompactAccounting.MirrorReco.Services. It includes a solution file (.sln) that can be opened in Visual Studio.
 
-### Opening in Visual Studio
+### - Opening in Visual Studio
 Navigate to backend > CompactAccounting.MirrorReco.Services and open CompactAccounting.MirrorReco.Services.sln with Visual Studio.
 
-### Environment Configuration
+### - Environment Configuration
 Before running the backend, you need to create a local.settings.json file in the MirrorReco.Functions directory (located at backend > CompactAccounting.MirrorReco.Services > MirrorReco.Functions).
 
 local.settings.json Configuration
@@ -142,4 +141,5 @@ After setting up your local.settings.json, simply run the solution file (Compact
 
 ---
 
-This will have your project up and running 
+### Conclusion
+You are now ready to work on the Mirror Reco project!
