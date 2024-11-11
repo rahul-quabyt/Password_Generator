@@ -1,5 +1,4 @@
-Markdown
-## Easy Data - Mono Repo with Front-End and Back-End
+# Easy Data - Mono Repo with Front-End and Back-End
 
 This repository is a mono repo containing both the front-end and back-end for the Easy Data application.
 
